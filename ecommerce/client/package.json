@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Rathimaan.github.io/Full-Stack-Projects/ecommerce",
+  "homepage": "https://Rathimaan.github.io/codsoft/ecommerce",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
