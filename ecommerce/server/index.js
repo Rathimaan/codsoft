@@ -24,8 +24,12 @@ app.use(cors({
     if (process.env.NODE_ENV !== 'production' && origin.startsWith('http://localhost')) {
       return callback(null, true);
     }
-    // In production allow only CLIENT_URL
-    if (origin === process.env.CLIENT_URL) {
+    // In production allow only CLIENT_URL - made case insensitive!
+    if (process.env.CLIENT_URL && origin.toLowerCase() === process.env.CLIENT_URL.toLowerCase()) {
+      return callback(null, true);
+    }
+    // Fallback for github pages
+    if (origin.toLowerCase() === 'https://rathimaan.github.io') {
       return callback(null, true);
     }
     callback(new Error('Not allowed by CORS'));
