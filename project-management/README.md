@@ -1,20 +1,20 @@
-# E-Commerce Website
+# Project Management Tool
 
-This is a simple E-Commerce website created as part of my Web Development Internship at CodSoft. The project was built to understand how an online shopping interface works.
+This is a simple Project Management Tool developed as part of my Web Development Internship at CodSoft. The project was created to understand how tasks and projects can be managed in a web application.
 
 Live Website:  
-https://rathimaan.github.io/codsoft/ecommerce/
+https://Rathimaan.github.io/codsoft/project-management/
 
 ## About the Project
 
-This website allows users to browse products in a simple and clean layout. The focus was on building a structured and responsive interface.
+This application allows users to create and manage tasks in a simple way. It focuses on basic functionality and a clean layout.
 
 ## Features
 
-- Product listing  
-- Clean and simple UI  
-- Responsive design  
-- Basic navigation  
+- Create projects  
+- Add tasks  
+- Track task status  
+- Simple and easy-to-use interface  
 
 ## Technologies Used
 
@@ -24,4 +24,4 @@ This website allows users to browse products in a simple and clean layout. The f
 
 ## Learning Outcome
 
-Through this project, I learned how to design web pages, structure content, and create a user-friendly interface.
+While building this project, I learned how to structure applications, manage tasks logically, and improve my problem-solving skills.
